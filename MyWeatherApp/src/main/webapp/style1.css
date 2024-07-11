@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://source.unsplash.com/1600x900/?weather');
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease;
+}
+
+#weather-container {
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding: 50px;
+}
+
+.weather-box {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+#greeting-box {
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+#greeting-msg {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f0f0f0;
+}
+
+.weather-box h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.weather-box h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.weather-box h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.weather-box p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.fa-thermometer-half, .fa-cloud-sun, .fa-tint, .fa-wind {
+    margin-right: 5px;
+    color: #333;
+}
+
